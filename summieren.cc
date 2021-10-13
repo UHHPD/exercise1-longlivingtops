@@ -2,7 +2,6 @@
 #include <fstream>
 using namespace std;
 
-
 int main(){
   int zahl_1;
   int zahl_2;
@@ -18,4 +17,4 @@ int main(){
   fin.close();
   fout.close();
 
-}
+} 
