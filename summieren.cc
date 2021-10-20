@@ -13,7 +13,7 @@ int main(){
     int out = zahl_1 + zahl_2;
     cout<< zahl_1 << " " << zahl_2 << endl;
     cout<< out << endl;
-    //cout << zahl_1 << " + " << zahl_2 << " = " << out << endl;
+    cout << zahl_1 << " + " << zahl_2 << " = " << out << endl;
     fout << out << endl;
   }
   fin.close();
