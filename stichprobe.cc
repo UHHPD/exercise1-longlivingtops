@@ -31,7 +31,7 @@ cout /* << "Mean=" */<< mean << endl;
   double var = 0;
   for (int i: v_sum)
 {
-    var += pow((v_sum[i] - mean),2);
+    var += pow((i - mean),2);
 }
     var = var/v_sum.size();
     cout /* << "Variance=" */ << var << endl;
