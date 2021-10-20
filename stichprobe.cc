@@ -22,7 +22,7 @@ for (int i: v_sum)
 }
 
 double mean = sum*1.0/v_sum.size();
-cout << "Mean="<< mean << endl;
+cout /* << "Mean=" */<< mean << endl;
 
   fin.close();
 
@@ -34,11 +34,11 @@ cout << "Mean="<< mean << endl;
     var += pow((v_sum[i] - mean),2);
 }
     var = var/v_sum.size();
-    cout << "Variance=" << var << endl;
+    cout /* << "Variance=" */ << var << endl;
 //Standarddeviation
 double stdv;
 stdv = sqrt(var);
-cout << "Std=" << stdv <<endl;
+cout /* << "Std=" */ << stdv <<endl;
 
 }
 
