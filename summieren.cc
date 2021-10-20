@@ -7,7 +7,7 @@ int main(){
   int zahl_2;
   ifstream fin("daten.txt");
   ofstream fout("datensumme.txt");
-  for (int x; x<234; ++x) {
+  for (int x=0; x<234; ++x) {
     fin >> zahl_1;
     fin >> zahl_2;
     int out = zahl_1 + zahl_2;
