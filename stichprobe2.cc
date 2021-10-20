@@ -7,8 +7,8 @@ using namespace std;
 
 vector<double> variances(vector<double> vec){
 
-  int sum=0;
-  for (int i: vec)
+  double sum=0;
+  for (double i: vec)
   {
       sum=sum+i;
   }
@@ -16,7 +16,7 @@ vector<double> variances(vector<double> vec){
   double mean = sum*1.0/vec.size();
   //cout /* << "Mean=" */<< mean << endl;
   double var = 0;
-    for (int i: vec)
+    for (double i: vec)
   {
       var += pow((i - mean),2);
       //cout<<i<<endl;
